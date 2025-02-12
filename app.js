@@ -1,4 +1,4 @@
-//Se genera variable array para almacenar lso datos de amigos
+//Se genera variable array para almacenar los datos de amigos
 let amigos = [];
 //Funcion que valida el elemento HTML 'amigo'.
 function agregarAmigo(){
