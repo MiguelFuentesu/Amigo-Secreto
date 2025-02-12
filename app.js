@@ -1,6 +1,6 @@
-// El principal objetivo de este desafío es fortalecer tus habilidades en lógica de programación. Aquí deberás desarrollar la lógica para resolver el problema.
+//Se genera variable array para almacenar lso datos de amigos
 let amigos = [];
-
+//Funcion que valida el elemento HTML 'amigo'.
 function agregarAmigo(){
 let nombreAmigo = document.getElementById('amigo').value.trim();
 if (nombreAmigo !== "" && nombreAmigo !== "Escribe un nombre"){
