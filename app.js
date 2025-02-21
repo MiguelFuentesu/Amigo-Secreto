@@ -39,3 +39,16 @@ for (let i = 0; i < amigos.length; i++){
     listaAmigos.appendChild(li);
 }
 }
+
+//Se crea nueva funcion para
+function sortearAmigo(){
+//Validar la disponibilidad de variable amigos
+if (amigos.length != 0){
+    //si hay amigos crear un indice aleatorio
+    let indiceAleatorio = Math.floor(Math.random() * amigos.length);
+    //indicar amigo sorteado
+    let amigoSorteado = amigos[indiceAleatorio];
+    //Mostrar amigo sorteado
+    document.getElementById('resultado').innerHTML = ("El amigo sorteado es: " + amigoSorteado);
+    }
+}
